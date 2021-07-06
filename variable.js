@@ -3,7 +3,7 @@
 // added in ES5
 // use this for Valina JavaScript
 
-// 2. Variable
+// 2. Variable (read / write)
 // let (added in ES6, mutable)
 // var (don't ever use this!)
 // var hoisting (move declaration from bottom to top, has no block scope)
@@ -11,11 +11,16 @@
 let name = "Liv";
 console.log(name);
 
-// 3. Constants
-// favor immutable data type always for a few reasons;
-// -security
-// -thread safety
-// -reduce human mmistakes
+// 3. Constant (read only)
+// use const whenever possible
+// only use let if variable needs to change
+
+// Immutable data types : primitive types, frozen objects (i.e. object.freeze())
+// Mutable data types : all objects by default are mutable in JS
+// favor immutable data type always for a few reasons
+//  -security
+//  -thread safety
+//  -reduce human mmistakes
 // 한 번 선언 및 할당하면 절대 값이 바뀌지 않는 것
 
 // 4. Variable types
