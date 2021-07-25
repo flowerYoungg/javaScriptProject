@@ -8,3 +8,10 @@ const obj = {
 
 obj.name = "ellie";
 console.log(obj.name);
+
+//function
+function add(num1, num2) {
+  return num1 + num2;
+}
+
+const sum = add(3, 4);
