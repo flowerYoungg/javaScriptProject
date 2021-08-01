@@ -9,7 +9,9 @@
 // var hoisting (move declaration from bottom to top, has no block scope)
 // hoisting : 어디에 선언했느냐에 상관없이 항상 제일 위로 끌어올리는 것)
 let name = "Liv";
+const name2 = "GT";
 console.log(name);
+console.log(name2);
 
 // 3. Constant (read only)
 // use const whenever possible
